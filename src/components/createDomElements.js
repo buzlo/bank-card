@@ -115,7 +115,7 @@ export default function () {
     type: 'email',
     placeholder: 'E-mail',
   });
-  $cvvInput.addEventListener('blur', () => {
+  $emailInput.addEventListener('blur', () => {
     $form.classList.add('was-validated');
     if ($form.checkValidity()) $submitBtn.disabled = false;
   });
